@@ -1,0 +1,1458 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "da5a1e6a-2605-436b-a30c-1027586d5c0a")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 177.8 115.57) (xy 223.52 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "053153ea-996b-4abb-9211-6c780e9a8101")
+	)
+	(wire
+		(pts
+			(xy 177.8 135.89) (xy 223.52 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d7c336f-a9da-4382-b1c6-d3e201c887a0")
+	)
+	(wire
+		(pts
+			(xy 177.8 105.41) (xy 223.52 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24846e0e-c4ef-44d2-8357-de941281021f")
+	)
+	(wire
+		(pts
+			(xy 177.8 26.67) (xy 223.52 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25177a0e-4ad0-4431-be7e-6b4a981db060")
+	)
+	(wire
+		(pts
+			(xy 73.66 115.57) (xy 123.19 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27e489aa-4515-4cc0-8aab-6140068a8171")
+	)
+	(wire
+		(pts
+			(xy 177.8 107.95) (xy 223.52 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d0b679a-83c3-4734-a656-81691ec6c51a")
+	)
+	(wire
+		(pts
+			(xy 177.8 138.43) (xy 223.52 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3474ad9a-ca0d-4bdb-919c-5c19aded45da")
+	)
+	(wire
+		(pts
+			(xy 73.66 90.17) (xy 123.19 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c1a96f9-f1ab-4343-9a2d-6bf43c960c53")
+	)
+	(wire
+		(pts
+			(xy 177.8 69.85) (xy 223.52 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49515f75-da61-4ff6-aceb-cfccaf1c30dc")
+	)
+	(wire
+		(pts
+			(xy 177.8 130.81) (xy 223.52 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5833b109-e746-4364-a0de-e169f6e3ea7b")
+	)
+	(wire
+		(pts
+			(xy 177.8 113.03) (xy 223.52 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f78c03-2462-4430-9160-fa12729dfd4c")
+	)
+	(wire
+		(pts
+			(xy 177.8 128.27) (xy 223.52 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "633a4bf6-c222-465b-b76f-fc42dd9600d9")
+	)
+	(wire
+		(pts
+			(xy 177.8 120.65) (xy 223.52 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a81b56-7bfd-409c-bed6-817c1a90fcca")
+	)
+	(wire
+		(pts
+			(xy 177.8 125.73) (xy 223.52 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65b38e06-3552-4064-b1e9-28fc55d226f2")
+	)
+	(wire
+		(pts
+			(xy 177.8 29.21) (xy 223.52 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "661e07c0-eefd-4d68-848c-69fdf30a83d9")
+	)
+	(wire
+		(pts
+			(xy 177.8 123.19) (xy 223.52 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aaaa064-b6cb-481c-b764-678c3242db43")
+	)
+	(wire
+		(pts
+			(xy 177.8 102.87) (xy 223.52 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7776e8bb-8316-4d6d-8028-5ccf07f1f0bb")
+	)
+	(wire
+		(pts
+			(xy 73.66 82.55) (xy 123.19 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7959e79d-631a-45db-abc8-017c78b46164")
+	)
+	(wire
+		(pts
+			(xy 177.8 48.26) (xy 223.52 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a36d672-f5b8-459f-8de5-c91e45aab5d8")
+	)
+	(wire
+		(pts
+			(xy 73.66 80.01) (xy 123.19 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "880a173c-8437-426d-8b08-b5b22164f3f4")
+	)
+	(wire
+		(pts
+			(xy 73.66 85.09) (xy 123.19 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dbb22ff-849e-45d5-8ba2-21d40f3f0efc")
+	)
+	(wire
+		(pts
+			(xy 177.8 118.11) (xy 223.52 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9239dd6b-ce81-4d0e-bc79-f8bc0b63ab94")
+	)
+	(wire
+		(pts
+			(xy 73.66 113.03) (xy 123.19 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "933f888b-50cf-41dc-bf45-6fe1da14f80c")
+	)
+	(wire
+		(pts
+			(xy 262.89 35.56) (xy 262.89 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4c99447-baa1-42b1-ae48-6dd0db2dc0e3")
+	)
+	(wire
+		(pts
+			(xy 73.66 110.49) (xy 123.19 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be6a6cfa-8930-47a4-a97e-9b869b97a334")
+	)
+	(wire
+		(pts
+			(xy 177.8 110.49) (xy 223.52 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c519ab82-4a54-4593-a1ce-d5e5107e311e")
+	)
+	(wire
+		(pts
+			(xy 177.8 45.72) (xy 223.52 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62fa21f-1913-4d65-90b0-ff8d3c0fb1b6")
+	)
+	(wire
+		(pts
+			(xy 177.8 100.33) (xy 223.52 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dba7ca83-6413-423d-afaa-6191c80e0cc3")
+	)
+	(wire
+		(pts
+			(xy 177.8 72.39) (xy 223.52 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd49f722-4b91-4e77-a519-11f08bf32c0d")
+	)
+	(wire
+		(pts
+			(xy 177.8 133.35) (xy 223.52 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e48060cd-3b7e-4a1b-b0c4-e2aeb313f729")
+	)
+	(wire
+		(pts
+			(xy 73.66 87.63) (xy 123.19 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5fc60b8-b9f6-4389-8d90-cffd3f6d5013")
+	)
+	(sheet
+		(at 223.52 97.79)
+		(size 54.61 42.545)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "02b2d3c6-421f-46ff-bd5d-9c9334be72d9")
+		(property "Sheetname" "Stepper Motors"
+			(at 223.52 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sm.kicad_sch"
+			(at 223.52 140.9196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "X-Dir" input
+			(at 223.52 102.87 180)
+			(uuid "b7390471-0f6c-41d1-a5ec-306cf4834d0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X-EN~" input
+			(at 223.52 118.11 180)
+			(uuid "4c208b49-6d5f-4108-ac60-d4856f7ddbb0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X-Mode1" input
+			(at 223.52 105.41 180)
+			(uuid "6a60b81b-50ac-4f6e-8aef-ac0542d7bf17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X-Mode2" input
+			(at 223.52 107.95 180)
+			(uuid "f3d52b10-26c0-4574-9817-5820ea117d98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X-Mode3" input
+			(at 223.52 110.49 180)
+			(uuid "8df0c23f-61fa-4ebb-ab44-aae2e5818d9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X-Reset~" input
+			(at 223.52 113.03 180)
+			(uuid "d03e3078-e80b-4069-be05-b4716da3f944")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X-Sleep~" input
+			(at 223.52 115.57 180)
+			(uuid "f91802d0-65aa-4005-a95e-a61ab675bc88")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X-Step" input
+			(at 223.52 100.33 180)
+			(uuid "66ae31de-9030-4fb5-bbcb-eaad92303d1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Y-Dir" input
+			(at 223.52 123.19 180)
+			(uuid "96681cf1-4be1-4d8b-a9ed-749fbb7c8147")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Y-EN~" input
+			(at 223.52 138.43 180)
+			(uuid "47499178-9af7-43a8-bde5-6010d9d85436")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Y-Mode1" input
+			(at 223.52 125.73 180)
+			(uuid "2c73a95e-bb88-460f-9eb8-12de3db055e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Y-Mode2" input
+			(at 223.52 128.27 180)
+			(uuid "34529b19-654f-4964-aaea-e5092a4dbd4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Y-Mode3" input
+			(at 223.52 130.81 180)
+			(uuid "37eba585-a740-4ba6-974d-b17697bf2476")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Y-Reset~" input
+			(at 223.52 133.35 180)
+			(uuid "9d0868a7-c6e1-45d5-a1eb-0d84e84a16f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Y-Sleep~" input
+			(at 223.52 135.89 180)
+			(uuid "85eb0bf7-1dfc-490c-bbbb-73f07934654b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Y-Step" input
+			(at 223.52 120.65 180)
+			(uuid "6f8a6253-a094-420c-b8d3-c8533e62494d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "AutoSketch"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 43.18)
+		(size 54.61 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "399e6312-ec1d-44d6-abac-da87eacf0410")
+		(property "Sheetname" "PID"
+			(at 223.52 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pid.kicad_sch"
+			(at 223.52 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DC-Control" output
+			(at 262.89 43.18 90)
+			(uuid "e6ffbdfb-18cc-4b8d-bbc1-d5f0ae3385c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC-Feedback" input
+			(at 223.52 48.26 180)
+			(uuid "a348be8e-39b6-4637-8928-383b3deb9d6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC-Set" input
+			(at 223.52 45.72 180)
+			(uuid "f80c3815-08ad-46f7-9b95-01b9fdcc45c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "AutoSketch"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 224.155 147.32)
+		(size 53.34 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "463839c1-06fd-47af-a2b1-a0b7c122b50f")
+		(property "Sheetname" "Vibrating Motor"
+			(at 224.155 146.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vibe.kicad_sch"
+			(at 224.155 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 224.155 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "Vibe" input
+			(at 224.155 151.13 180)
+			(uuid "55b4c022-8c1b-4a32-9a98-71fb901a77e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "AutoSketch"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 104.14)
+		(size 54.61 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "631ff66c-e0f1-44f6-b7c1-b700e9b00805")
+		(property "Sheetname" "Interface"
+			(at 19.05 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "interface.kicad_sch"
+			(at 19.05 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Button-Set" output
+			(at 73.66 113.03 0)
+			(uuid "217b8ef9-6050-4131-a58c-3dffe006e88d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Toggle-Set" output
+			(at 73.66 110.49 0)
+			(uuid "e36018e9-9b6b-418c-90f6-4acf37416313")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Trim-Set" output
+			(at 73.66 115.57 0)
+			(uuid "55f5c88c-6d04-4aad-8668-877bb0835170")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AutoSketch"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 66.04)
+		(size 54.61 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "66d6b663-ec63-43c2-bc54-46620d266608")
+		(property "Sheetname" "Encoders"
+			(at 223.52 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "encoder.kicad_sch"
+			(at 223.52 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "Encoder-A" output
+			(at 223.52 69.85 180)
+			(uuid "bb256e14-d76a-446e-997b-6d795c7e413b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Encoder-B" output
+			(at 223.52 72.39 180)
+			(uuid "b94133ff-6aed-415a-8e3f-2aea5c68d735")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "AutoSketch"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 20.32)
+		(size 54.61 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "916030f4-6c92-42da-9a9c-e29fc415bd47")
+		(property "Sheetname" "Power"
+			(at 19.05 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 19.05 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 19.05 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "AutoSketch"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 20.32)
+		(size 54.61 142.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9f924d62-8069-4814-89bf-edab97b21305")
+		(property "Sheetname" "MCU"
+			(at 123.19 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 123.19 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 123.19 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "Button-Set" input
+			(at 123.19 113.03 180)
+			(uuid "9a23202b-3e79-4230-8a25-960713bf9b44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Toggle-Set" input
+			(at 123.19 110.49 180)
+			(uuid "841c422b-965d-4854-b030-8d200dcc581a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Trim-Set" input
+			(at 123.19 115.57 180)
+			(uuid "e1290f7c-7bbe-4af5-af42-46b714828876")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Wireless-CE" output
+			(at 123.19 80.01 180)
+			(uuid "eb2ee5dc-9a74-4ef9-a099-2905b57c47d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Wireless-IRQ" input
+			(at 123.19 90.17 180)
+			(uuid "a481a65a-04a8-49b7-a9a5-e1c00d831770")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Wireless-MISO" input
+			(at 123.19 87.63 180)
+			(uuid "1182f99a-170e-4811-b85d-fc172bdcba6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Wireless-MOSI" output
+			(at 123.19 85.09 180)
+			(uuid "2252c4fc-e044-4710-811f-a3efcd26fba8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Wireless-SCK" output
+			(at 123.19 82.55 180)
+			(uuid "9dd007fe-a2ae-4fff-b0ce-aa663ff98a8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC-Direction" output
+			(at 177.8 26.67 0)
+			(uuid "216f98f1-b11b-4309-8ebe-0e75b885f93e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC-Direction~" output
+			(at 177.8 29.21 0)
+			(uuid "60c682dc-2d01-4aa8-99c2-de2b2d4449a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC-Set" output
+			(at 177.8 45.72 0)
+			(uuid "19a81601-eef5-44d8-baed-554940881586")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC-Feedback" output
+			(at 177.8 48.26 0)
+			(uuid "a0eb6b89-7abf-4019-8ca5-512d7dcd4918")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Encoder-A" input
+			(at 177.8 69.85 0)
+			(uuid "59f58fab-3553-4b52-9a94-1f50b63ac999")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Encoder-B" input
+			(at 177.8 72.39 0)
+			(uuid "0a8e3a65-1b56-40c7-91a8-898fa414e00f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "X-Dir" output
+			(at 177.8 102.87 0)
+			(uuid "1d019af8-1eaf-4082-afb7-b674b18662a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "X-EN~" output
+			(at 177.8 118.11 0)
+			(uuid "c139bcb9-aedf-4096-ad02-3b7c02b77d7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "X-Mode1" output
+			(at 177.8 105.41 0)
+			(uuid "406a7a1c-eb8c-4304-9869-604d51bd27a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "X-Mode2" output
+			(at 177.8 107.95 0)
+			(uuid "b3a1b61c-4cab-4a70-be80-1b6b76cfd0b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "X-Mode3" output
+			(at 177.8 110.49 0)
+			(uuid "a7060382-0a5b-4c5b-87bb-1c56f3b403a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "X-Reset~" output
+			(at 177.8 113.03 0)
+			(uuid "78ba56cc-9b16-42ea-9d84-97997779fe1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "X-Sleep~" output
+			(at 177.8 115.57 0)
+			(uuid "40a5f7b6-b1c5-4109-9ac8-5f61c2d9a0fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "X-Step" output
+			(at 177.8 100.33 0)
+			(uuid "4854cf3a-300a-4da7-8606-6fd428fea263")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Y-Dir" output
+			(at 177.8 123.19 0)
+			(uuid "fe691ce5-ddc8-404d-9250-ba38a510ef43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Y-EN~" output
+			(at 177.8 138.43 0)
+			(uuid "90738d3e-0a68-475b-85e8-59bd1b6f01af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Y-Mode1" output
+			(at 177.8 125.73 0)
+			(uuid "1aab3cfd-59f4-4d86-b55b-2c41e42738ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Y-Mode2" output
+			(at 177.8 128.27 0)
+			(uuid "b9e9a693-6f17-4ce3-9247-09ea2bd0c20a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Y-Mode3" output
+			(at 177.8 130.81 0)
+			(uuid "737c495d-e3a0-4721-b313-715c12a7a2bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Y-Reset~" output
+			(at 177.8 133.35 0)
+			(uuid "402735bf-ba81-43a5-ba3d-45c6ae03246e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Y-Sleep~" output
+			(at 177.8 135.89 0)
+			(uuid "ab63c9f6-7e11-4d71-8943-b2b1a87f2c8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Y-Step" output
+			(at 177.8 120.65 0)
+			(uuid "9284f428-f39a-4465-a073-db5baf61359c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vibe" output
+			(at 177.8 151.13 0)
+			(uuid "2e16e7eb-e48d-4863-9c28-a447b141738a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AutoSketch"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 83.185)
+		(size 54.61 8.255)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b42914b7-e76e-4fba-a44a-dd8e1cd438aa")
+		(property "Sheetname" "Limit Switches"
+			(at 223.52 82.4734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "limit.kicad_sch"
+			(at 223.52 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AutoSketch"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 49.53)
+		(size 54.61 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d429f0d5-bc03-4af2-9148-b24aef483f14")
+		(property "Sheetname" "RPI5"
+			(at 19.05 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rpi5.kicad_sch"
+			(at 19.05 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AutoSketch"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 76.2)
+		(size 54.61 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "df390d96-ce59-4dbf-b66b-942154fe9e9d")
+		(property "Sheetname" "Wireless"
+			(at 19.05 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "wireless.kicad_sch"
+			(at 19.05 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Wireless-CE" input
+			(at 73.66 80.01 0)
+			(uuid "88b1fcb4-69ef-4411-996b-b47201f34992")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Wireless-IRQ" output
+			(at 73.66 90.17 0)
+			(uuid "27001b79-9228-4fe1-b662-80c4089a7f8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Wireless-MISO" output
+			(at 73.66 87.63 0)
+			(uuid "a1d1a518-ab0e-49e6-9c5a-55ce4395c5ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Wireless-MOSI" input
+			(at 73.66 85.09 0)
+			(uuid "d9de8dab-b7cc-48f5-8fe2-2e15329b69e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Wireless-SCK" input
+			(at 73.66 82.55 0)
+			(uuid "dfd74a8a-aa7a-4839-b72e-8213f15bfeb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AutoSketch"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 20.32)
+		(size 54.61 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ff2deaf2-6004-4dd4-be83-ba60fb8fbe07")
+		(property "Sheetname" "DC Motor"
+			(at 223.52 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dcm.kicad_sch"
+			(at 223.52 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DC-Control" input
+			(at 262.89 35.56 270)
+			(uuid "c88ee92d-46cb-42ed-be6a-4a9bee03a1ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC-Direction" input
+			(at 223.52 26.67 180)
+			(uuid "63abeb96-1a2c-4e3a-8433-2965db4f7b33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC-Direction~" input
+			(at 223.52 29.21 180)
+			(uuid "905b000e-f89f-4d25-a104-8e36d1337526")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "AutoSketch"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
