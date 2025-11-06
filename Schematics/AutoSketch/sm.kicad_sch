@@ -2,8 +2,14 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "daa6033c-d6db-4f07-ab5c-d72073c4e309")
+	(uuid "9b16f530-ecb4-4213-861c-3794a6e06b94")
 	(paper "A4")
+	(title_block
+		(title "Stepper Motor Stylus Control")
+		(date "2025-11-05")
+		(rev "1.0")
+		(company "Fergus Page")
+	)
 	(lib_symbols
 		(symbol "Driver_Motor:Pololu_Breakout_A4988"
 			(exclude_from_sim no)

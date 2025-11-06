@@ -2,8 +2,14 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "89631242-f5fd-4d08-a265-1ac234605b92")
+	(uuid "7c5ea8eb-e530-4ee5-a8ec-8e1eddd56b60")
 	(paper "A4")
+	(title_block
+		(title "Power")
+		(date "2025-11-05")
+		(rev "1.0")
+		(company "Fergus Page")
+	)
 	(lib_symbols
 		(symbol "Device:R"
 			(pin_numbers

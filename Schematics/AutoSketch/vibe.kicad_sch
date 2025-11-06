@@ -2,8 +2,14 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "ae5b78b6-a646-44b2-9112-5a181ac62ed9")
+	(uuid "03552ef2-8ce1-4c39-9567-b42a4a050c06")
 	(paper "A4")
+	(title_block
+		(title "Vibrating Motor Erase Assist")
+		(date "2025-11-05")
+		(rev "1.0")
+		(company "Fergus Page")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL082"
 			(pin_names

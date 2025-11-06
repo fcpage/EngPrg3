@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "3b4063d5-6ac2-4ebf-8575-979b3a5408bf")
 	(paper "A4")
+	(title_block
+		(date "2025-11-05")
+		(rev "1.0")
+		(company "Fergus Page")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x19_Odd_Even"
 			(pin_names
@@ -2512,7 +2517,7 @@
 	)
 	(global_label "R3V3"
 		(shape output)
-		(at 201.93 27.94 180)
+		(at 139.7 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2522,7 +2527,7 @@
 		)
 		(uuid "9fa96c33-53a7-439e-bd74-6653678e25e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.1672 27.94 0)
+			(at 131.9372 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,18 +2539,18 @@
 	)
 	(hierarchical_label "Y-EN~"
 		(shape output)
-		(at 109.22 137.16 180)
+		(at 199.39 52.705 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "058c2e39-ad73-4ca1-84f4-cc1c9ec7afb9")
 	)
 	(hierarchical_label "X-Reset~"
 		(shape output)
-		(at 93.98 129.54 180)
+		(at 59.69 24.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2554,9 +2559,9 @@
 		)
 		(uuid "06992e01-235d-4bb3-a819-2424ee3617af")
 	)
-	(hierarchical_label "Toggle-Set"
+	(hierarchical_label "Toggle"
 		(shape input)
-		(at 30.48 125.73 0)
+		(at 208.28 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2565,42 +2570,53 @@
 		)
 		(uuid "099cfc0f-498b-4eb2-9a65-00c2cf369947")
 	)
-	(hierarchical_label "Encoder-B"
-		(shape input)
-		(at 30.48 63.5 0)
+	(hierarchical_label "OLED-SDA"
+		(shape bidirectional)
+		(at 209.55 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "14a20aa3-a5ef-4182-8af9-230a9319bfbe")
+		(uuid "0d38eafe-b723-4dbe-a858-088198653513")
 	)
-	(hierarchical_label "Y-Mode1"
-		(shape output)
-		(at 109.22 147.32 180)
+	(hierarchical_label "Encoder-B"
+		(shape input)
+		(at 99.06 21.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
+		)
+		(uuid "14a20aa3-a5ef-4182-8af9-230a9319bfbe")
+	)
+	(hierarchical_label "Y-Mode1"
+		(shape output)
+		(at 199.39 42.545 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "16af0e06-b7be-4758-bc7f-5bf1fecd4a60")
 	)
 	(hierarchical_label "Y-Dir"
 		(shape output)
-		(at 109.22 142.24 180)
+		(at 199.39 47.625 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "17f486c8-eebb-4432-8a80-9a5193c35907")
 	)
 	(hierarchical_label "X-Mode3"
 		(shape output)
-		(at 93.98 152.4 180)
+		(at 59.69 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2611,18 +2627,18 @@
 	)
 	(hierarchical_label "Y-Mode2"
 		(shape output)
-		(at 109.22 149.86 180)
+		(at 199.39 40.005 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "1bef7359-d2f3-4623-9154-6f212e1177c7")
 	)
 	(hierarchical_label "DC-Set"
 		(shape output)
-		(at 40.64 83.82 180)
+		(at 57.15 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2633,7 +2649,7 @@
 	)
 	(hierarchical_label "DC-Feedback"
 		(shape output)
-		(at 40.64 87.63 180)
+		(at 57.15 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2644,29 +2660,40 @@
 	)
 	(hierarchical_label "Y-Step"
 		(shape output)
-		(at 109.22 139.7 180)
+		(at 199.39 50.165 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "41f9d5d8-b88f-4407-a757-a4ef51c5ac0d")
+	)
+	(hierarchical_label "LimF"
+		(shape input)
+		(at 99.06 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "41f9d5d8-b88f-4407-a757-a4ef51c5ac0d")
+		(uuid "46c68f7f-322f-4fca-b3d2-2f3cc94a2534")
 	)
 	(hierarchical_label "Wireless-SCK"
 		(shape output)
-		(at 41.91 102.87 180)
+		(at 208.28 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "481c315a-c29f-4d82-b90b-f592cd5c4726")
 	)
 	(hierarchical_label "DC-Direction"
 		(shape output)
-		(at 40.64 73.66 180)
+		(at 57.15 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2677,7 +2704,7 @@
 	)
 	(hierarchical_label "DC-Direction~"
 		(shape output)
-		(at 40.64 78.74 180)
+		(at 57.15 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2688,29 +2715,29 @@
 	)
 	(hierarchical_label "Y-Reset~"
 		(shape output)
-		(at 109.22 129.54 180)
+		(at 199.39 60.325 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5f97e224-b04e-4bc2-b2e4-8546ea4da214")
 	)
 	(hierarchical_label "Wireless-MOSI"
 		(shape output)
-		(at 41.91 97.79 180)
+		(at 208.28 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "67df4c95-7d31-4081-b884-6c232fe35e78")
 	)
 	(hierarchical_label "X-Mode1"
 		(shape output)
-		(at 93.98 147.32 180)
+		(at 59.69 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2721,7 +2748,7 @@
 	)
 	(hierarchical_label "X-Sleep~"
 		(shape output)
-		(at 93.98 132.08 180)
+		(at 59.69 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2732,18 +2759,18 @@
 	)
 	(hierarchical_label "Wireless-MISO"
 		(shape input)
-		(at 41.91 100.33 180)
+		(at 208.28 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "91cdf56a-6d98-42b3-98cc-cee323a85b96")
 	)
 	(hierarchical_label "X-Step"
 		(shape output)
-		(at 93.98 139.7 180)
+		(at 59.69 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2754,18 +2781,18 @@
 	)
 	(hierarchical_label "Y-Mode3"
 		(shape output)
-		(at 109.22 152.4 180)
+		(at 199.39 37.465 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "a462e31f-8ef2-49e8-9545-5e307d851066")
 	)
 	(hierarchical_label "Vibe"
 		(shape output)
-		(at 36.83 148.59 180)
+		(at 99.06 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2774,9 +2801,9 @@
 		)
 		(uuid "b281c4ed-fdd7-4d5b-81ea-70bc17dbb034")
 	)
-	(hierarchical_label "Button-Set"
+	(hierarchical_label "Button"
 		(shape input)
-		(at 30.48 132.08 0)
+		(at 208.28 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2787,18 +2814,18 @@
 	)
 	(hierarchical_label "Wireless-CE"
 		(shape output)
-		(at 41.91 110.49 180)
+		(at 208.28 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "c18fd841-b94d-4742-99c4-b0bcda7b35d8")
 	)
 	(hierarchical_label "X-Mode2"
 		(shape output)
-		(at 93.98 149.86 180)
+		(at 59.69 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2809,7 +2836,7 @@
 	)
 	(hierarchical_label "X-EN~"
 		(shape output)
-		(at 93.98 137.16 180)
+		(at 59.69 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2820,29 +2847,40 @@
 	)
 	(hierarchical_label "Y-Sleep~"
 		(shape output)
-		(at 109.22 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d691d3e5-01ac-4b46-8369-b671bc051bf2")
-	)
-	(hierarchical_label "Encoder-A"
-		(shape input)
-		(at 30.48 58.42 0)
+		(at 199.39 57.785 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
+		(uuid "d691d3e5-01ac-4b46-8369-b671bc051bf2")
+	)
+	(hierarchical_label "OLED-SCL"
+		(shape output)
+		(at 209.55 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7051406-4456-4a98-b6d4-7944fe1584f6")
+	)
+	(hierarchical_label "Encoder-A"
+		(shape input)
+		(at 99.06 26.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
 		(uuid "df17c19e-8302-432c-be16-e8e037d43a80")
 	)
-	(hierarchical_label "Trim-Set"
+	(hierarchical_label "Trim"
 		(shape input)
-		(at 30.48 138.43 0)
+		(at 208.28 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2851,20 +2889,31 @@
 		)
 		(uuid "e0e538b1-26c6-4ff5-b47d-27df33d94274")
 	)
-	(hierarchical_label "Wireless-IRQ"
+	(hierarchical_label "LimR"
 		(shape input)
-		(at 41.91 113.03 180)
+		(at 99.06 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
+		(uuid "e148d89e-2b77-4407-9d9e-59cb602cca21")
+	)
+	(hierarchical_label "Wireless-IRQ"
+		(shape input)
+		(at 208.28 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
 		(uuid "ec056d63-66ed-41fb-9b5d-7a821d60a843")
 	)
 	(hierarchical_label "X-Dir"
 		(shape output)
-		(at 93.98 142.24 180)
+		(at 59.69 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)

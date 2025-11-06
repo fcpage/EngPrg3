@@ -622,28 +622,28 @@
       "Root"
     ],
     [
-      "9f924d62-8069-4814-89bf-edab97b21305",
-      "MCU"
-    ],
-    [
       "916030f4-6c92-42da-9a9c-e29fc415bd47",
       "Power"
     ],
     [
-      "66d6b663-ec63-43c2-bc54-46620d266608",
-      "Encoders"
+      "d429f0d5-bc03-4af2-9148-b24aef483f14",
+      "RPI5"
+    ],
+    [
+      "9f924d62-8069-4814-89bf-edab97b21305",
+      "MCU"
+    ],
+    [
+      "df390d96-ce59-4dbf-b66b-942154fe9e9d",
+      "Wireless"
     ],
     [
       "ff2deaf2-6004-4dd4-be83-ba60fb8fbe07",
       "DC Motor"
     ],
     [
-      "02b2d3c6-421f-46ff-bd5d-9c9334be72d9",
-      "Stepper Motors"
-    ],
-    [
-      "df390d96-ce59-4dbf-b66b-942154fe9e9d",
-      "Wireless"
+      "66d6b663-ec63-43c2-bc54-46620d266608",
+      "Encoders"
     ],
     [
       "399e6312-ec1d-44d6-abac-da87eacf0410",
@@ -654,8 +654,8 @@
       "Limit Switches"
     ],
     [
-      "d429f0d5-bc03-4af2-9148-b24aef483f14",
-      "RPI5"
+      "02b2d3c6-421f-46ff-bd5d-9c9334be72d9",
+      "Stepper Motors"
     ],
     [
       "463839c1-06fd-47af-a2b1-a0b7c122b50f",

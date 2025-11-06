@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "da5a1e6a-2605-436b-a30c-1027586d5c0a")
 	(paper "A4")
+	(title_block
+		(title "Top Level System Diagram")
+		(date "2025-11-05")
+		(rev "1.0")
+		(company "Fergus Page")
+	)
 	(lib_symbols)
 	(wire
 		(pts
@@ -97,6 +103,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 87.63) (xy 223.52 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558ef472-b5b0-4e05-af95-360778f3f740")
+	)
+	(wire
+		(pts
 			(xy 177.8 130.81) (xy 223.52 130.81)
 		)
 		(stroke
@@ -144,6 +160,16 @@
 			(type default)
 		)
 		(uuid "65b38e06-3552-4064-b1e9-28fc55d226f2")
+	)
+	(wire
+		(pts
+			(xy 177.8 85.09) (xy 223.52 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65dedf13-e98b-4367-bada-1a14cc5fe82e")
 	)
 	(wire
 		(pts
@@ -267,6 +293,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 118.11) (xy 123.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5b904a0-202a-41fa-bcbd-481c6bb08b84")
+	)
+	(wire
+		(pts
 			(xy 177.8 45.72) (xy 223.52 45.72)
 		)
 		(stroke
@@ -297,6 +333,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 120.65) (xy 123.19 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0dfaeff-2ca2-416a-aa49-37f939aae693")
+	)
+	(wire
+		(pts
 			(xy 177.8 133.35) (xy 223.52 133.35)
 		)
 		(stroke
@@ -314,6 +360,16 @@
 			(type default)
 		)
 		(uuid "e5fc60b8-b9f6-4389-8d90-cffd3f6d5013")
+	)
+	(wire
+		(pts
+			(xy 73.025 139.7) (xy 123.19 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc0ae6d0-6060-414d-80a7-0bfec13e8e32")
 	)
 	(sheet
 		(at 223.52 97.79)
@@ -512,7 +568,7 @@
 		(instances
 			(project "AutoSketch"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(page "6")
+					(page "10")
 				)
 			)
 		)
@@ -590,7 +646,7 @@
 		)
 	)
 	(sheet
-		(at 224.155 147.32)
+		(at 19.685 131.445)
 		(size 53.34 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -606,7 +662,7 @@
 		)
 		(uuid "463839c1-06fd-47af-a2b1-a0b7c122b50f")
 		(property "Sheetname" "Vibrating Motor"
-			(at 224.155 146.6084 0)
+			(at 19.685 130.7334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -615,7 +671,7 @@
 			)
 		)
 		(property "Sheetfile" "vibe.kicad_sch"
-			(at 224.155 163.1446 0)
+			(at 19.685 147.2696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -624,7 +680,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 224.155 147.32 0)
+			(at 19.685 131.445 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -632,13 +688,13 @@
 			)
 		)
 		(pin "Vibe" input
-			(at 224.155 151.13 180)
-			(uuid "55b4c022-8c1b-4a32-9a98-71fb901a77e3")
+			(at 73.025 139.7 0)
+			(uuid "b0aee9ab-0d35-4666-8b4f-74213059eae9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -683,9 +739,9 @@
 				(justify left top)
 			)
 		)
-		(pin "Button-Set" output
-			(at 73.66 113.03 0)
-			(uuid "217b8ef9-6050-4131-a58c-3dffe006e88d")
+		(pin "OLED-SCL" input
+			(at 73.66 118.11 0)
+			(uuid "4a2a4c58-9b0a-4797-8eea-0133052e66d1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -693,9 +749,19 @@
 				(justify right)
 			)
 		)
-		(pin "Toggle-Set" output
+		(pin "OLED-SDA" bidirectional
+			(at 73.66 120.65 0)
+			(uuid "0cfa119c-0c0f-4fe5-97b1-39c64a82ab99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Button" output
 			(at 73.66 110.49 0)
-			(uuid "e36018e9-9b6b-418c-90f6-4acf37416313")
+			(uuid "1229ae69-553c-42cd-87a4-e914751dd2cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -703,9 +769,19 @@
 				(justify right)
 			)
 		)
-		(pin "Trim-Set" output
+		(pin "Toggle" output
+			(at 73.66 113.03 0)
+			(uuid "ebaf15ff-0c23-471f-bf57-8851401a2cd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Trim" output
 			(at 73.66 115.57 0)
-			(uuid "55f5c88c-6d04-4aad-8668-877bb0835170")
+			(uuid "ce03b1b6-05eb-4592-8c20-c6f43aad06c9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -786,7 +862,7 @@
 		(instances
 			(project "AutoSketch"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(page "4")
+					(page "7")
 				)
 			)
 		)
@@ -836,14 +912,14 @@
 		(instances
 			(project "AutoSketch"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(page "3")
+					(page "2")
 				)
 			)
 		)
 	)
 	(sheet
 		(at 123.19 20.32)
-		(size 54.61 142.24)
+		(size 54.61 130.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -867,7 +943,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 123.19 163.1446 0)
+			(at 123.19 151.7146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -881,36 +957,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(pin "Button-Set" input
-			(at 123.19 113.03 180)
-			(uuid "9a23202b-3e79-4230-8a25-960713bf9b44")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Toggle-Set" input
-			(at 123.19 110.49 180)
-			(uuid "841c422b-965d-4854-b030-8d200dcc581a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Trim-Set" input
-			(at 123.19 115.57 180)
-			(uuid "e1290f7c-7bbe-4af5-af42-46b714828876")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "Wireless-CE" output
@@ -1184,8 +1230,18 @@
 			)
 		)
 		(pin "Vibe" output
-			(at 177.8 151.13 0)
+			(at 123.19 139.7 180)
 			(uuid "2e16e7eb-e48d-4863-9c28-a447b141738a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LimF" input
+			(at 177.8 85.09 0)
+			(uuid "11c2a170-b07c-47ea-b750-d1c9ffe6fcd0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1193,10 +1249,70 @@
 				(justify right)
 			)
 		)
+		(pin "LimR" input
+			(at 177.8 87.63 0)
+			(uuid "beb6c771-98f8-42c8-a8d5-09e9b2973b31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OLED-SCL" output
+			(at 123.19 118.11 180)
+			(uuid "b5ca3891-6ced-4563-8202-2057bca8ecee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OLED-SDA" bidirectional
+			(at 123.19 120.65 180)
+			(uuid "d8b563e7-bb5a-423c-a781-4bd6a5a3ea54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Button" input
+			(at 123.19 110.49 180)
+			(uuid "73dc497f-d862-4cbd-8136-9056df20152a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Toggle" input
+			(at 123.19 113.03 180)
+			(uuid "9713f430-7305-42bf-b300-f38fbec67ce3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Trim" input
+			(at 123.19 115.57 180)
+			(uuid "03636666-6111-4ad0-9bf7-051106f06a70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "AutoSketch"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(page "2")
+					(page "4")
 				)
 			)
 		)
@@ -1233,6 +1349,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "LimF" output
+			(at 223.52 85.09 180)
+			(uuid "f17890f1-ed72-4998-8a03-f52f1c046497")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LimR" output
+			(at 223.52 87.63 180)
+			(uuid "c0db4da9-1972-40ac-9fa2-fcc3f49a4778")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1280,7 +1416,7 @@
 		(instances
 			(project "AutoSketch"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(page "10")
+					(page "3")
 				)
 			)
 		)
@@ -1372,7 +1508,7 @@
 		(instances
 			(project "AutoSketch"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(page "7")
+					(page "5")
 				)
 			)
 		)
@@ -1444,7 +1580,7 @@
 		(instances
 			(project "AutoSketch"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(page "5")
+					(page "6")
 				)
 			)
 		)

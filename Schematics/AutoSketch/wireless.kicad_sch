@@ -2,8 +2,14 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "f066981f-952e-47d1-bf4b-716d9f6e3457")
+	(uuid "dd926d05-dfb0-40c1-86a1-37e9d9f63171")
 	(paper "A4")
+	(title_block
+		(title "Wireless")
+		(date "2025-11-05")
+		(rev "1.0")
+		(company "Fergus Page")
+	)
 	(lib_symbols
 		(symbol "RF:NRF24L01_Breakout"
 			(pin_names

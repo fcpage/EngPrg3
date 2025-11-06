@@ -2,8 +2,14 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "25685ff2-6172-460e-be20-a197b22f2f3e")
+	(uuid "19daa0d7-f48e-45ec-bd82-92aeb1487840")
 	(paper "A4")
+	(title_block
+		(title "Hardware User Interface")
+		(date "2025-11-05")
+		(rev "1.0")
+		(company "Fergus Page")
+	)
 	(lib_symbols
 		(symbol "Device:R"
 			(pin_numbers
@@ -276,6 +282,142 @@
 					(at 3.81 0 180)
 					(length 1.27)
 					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GrandOleLirbrarey:Generic_I2C"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "U"
+				(at 5.842 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Generic_I2C_0_1"
+				(rectangle
+					(start -2.54 2.54)
+					(end 15.24 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Generic_I2C_1_1"
+				(pin input line
+					(at -5.08 -7.62 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 6.35 5.08 270)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 6.35 -20.32 90)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -707,6 +849,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "OLED Display"
+		(exclude_from_sim no)
+		(at 195.072 48.514 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "51bbd3c7-1daa-4538-8615-a977182d39b6")
+	)
 	(junction
 		(at 76.2 52.07)
 		(diameter 0)
@@ -726,10 +878,22 @@
 		(uuid "617b5a3c-d6ce-43bc-b3b6-66517c6cfbd3")
 	)
 	(junction
+		(at 142.24 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72297a99-5e7c-4acf-a13e-1b611514d3ff")
+	)
+	(junction
 		(at 96.52 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abf52449-51a6-4c4b-a94f-cbc0c97c4d0e")
+	)
+	(junction
+		(at 142.24 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d49342d1-82a8-4cc6-96dc-d9925117ef21")
 	)
 	(junction
 		(at 105.41 52.07)
@@ -746,6 +910,16 @@
 			(type default)
 		)
 		(uuid "06dd3672-bf46-4b3d-9e01-86a5b3f7463d")
+	)
+	(wire
+		(pts
+			(xy 195.58 52.07) (xy 142.24 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a7ac997-2b7b-43f2-8dff-67b254d19eea")
 	)
 	(wire
 		(pts
@@ -819,6 +993,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 82.55) (xy 195.58 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74deb90b-227e-4e62-b436-3e7ffb094002")
+	)
+	(wire
+		(pts
 			(xy 105.41 60.96) (xy 105.41 72.39)
 		)
 		(stroke
@@ -829,6 +1013,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 57.15) (xy 195.58 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dcdc127-d7db-4c17-b0ae-62def647160a")
+	)
+	(wire
+		(pts
 			(xy 105.41 83.82) (xy 105.41 85.09)
 		)
 		(stroke
@@ -836,6 +1030,16 @@
 			(type default)
 		)
 		(uuid "8d53417a-1b95-4698-8087-501c9d32d9c4")
+	)
+	(wire
+		(pts
+			(xy 180.34 69.85) (xy 184.15 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b166688-7b72-4609-bb41-69d6357967dd")
 	)
 	(wire
 		(pts
@@ -876,6 +1080,26 @@
 			(type default)
 		)
 		(uuid "bbbc885c-1681-42e8-b274-8db6caad4ad7")
+	)
+	(wire
+		(pts
+			(xy 180.34 72.39) (xy 184.15 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcaa7cdc-2452-405d-97b6-85fb77fba640")
+	)
+	(wire
+		(pts
+			(xy 195.58 85.09) (xy 142.24 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d04b1f-d18b-4563-826a-e2279f96506b")
 	)
 	(wire
 		(pts
@@ -959,7 +1183,7 @@
 			)
 		)
 	)
-	(hierarchical_label "Toggle-Set"
+	(hierarchical_label "Toggle"
 		(shape output)
 		(at 153.67 66.04 0)
 		(effects
@@ -970,7 +1194,7 @@
 		)
 		(uuid "0c7fa22e-3d02-45ad-acbd-2826776ad32e")
 	)
-	(hierarchical_label "Button-Set"
+	(hierarchical_label "Button"
 		(shape output)
 		(at 153.67 72.39 0)
 		(effects
@@ -981,7 +1205,29 @@
 		)
 		(uuid "0f26ba34-43e0-4843-9d88-ef4eae4a8d0d")
 	)
-	(hierarchical_label "Trim-Set"
+	(hierarchical_label "OLED-SCL"
+		(shape input)
+		(at 180.34 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4df5e7e0-b9d5-4a8f-a700-ec5b78bd7f47")
+	)
+	(hierarchical_label "OLED-SDA"
+		(shape bidirectional)
+		(at 180.34 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76692349-f18d-422f-a658-05859db0a938")
+	)
+	(hierarchical_label "Trim"
 		(shape output)
 		(at 153.67 78.74 0)
 		(effects
@@ -1266,6 +1512,81 @@
 			(project ""
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/631ff66c-e0f1-44f6-b7c1-b700e9b00805"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GrandOleLirbrarey:Generic_I2C")
+		(at 189.23 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "d8914e96-5bec-4fd4-b0b2-db1845b91ef7")
+		(property "Reference" "U6"
+			(at 194.818 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SSD1306"
+			(at 194.818 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "28a86518-e9c8-41d5-8114-7e9e4a5a4829")
+		)
+		(pin "2"
+			(uuid "19aa5144-432a-4ac4-bf71-baf72f6376b0")
+		)
+		(pin "3"
+			(uuid "2e20caef-c53a-4fe3-8055-c4ff74c8c556")
+		)
+		(pin "1"
+			(uuid "7bd71467-058a-4f5d-93c3-963d589f6e65")
+		)
+		(instances
+			(project ""
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/631ff66c-e0f1-44f6-b7c1-b700e9b00805"
+					(reference "U6")
 					(unit 1)
 				)
 			)
