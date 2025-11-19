@@ -1,0 +1,5 @@
+Calculate Moment of Inertia:
+https://forum.allaboutcircuits.com/threads/calculate-moment-of-inertia-j-and-magnetic-field-b-of-a-permanent-magnet-dc-motor-pmdc-motor.167898/
+
+DC Motor Modelling:
+https://youtu.be/GSvoQ4p3qV0
